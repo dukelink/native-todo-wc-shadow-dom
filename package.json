@@ -1,0 +1,33 @@
+{
+  "name": "native-todo",
+  "version": "1.0.0",
+  "description": "Native Todo Example",
+  "browser": "",
+  "scripts": {
+    "start": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "todo",
+    "example",
+    "webcomponents",
+    "customelements"
+  ],
+  "author": "duke",
+  "license": "MIT",
+  "bugs": {
+    "url": "http://"
+  },
+  "homepage": "http://",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.1",
+    "es6-module-loader"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
