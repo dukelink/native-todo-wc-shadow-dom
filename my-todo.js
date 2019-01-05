@@ -1,4 +1,5 @@
 import './todo-item.js';
+import './todo-input.js';
 const templateTodo = document.createElement('template');
 templateTodo.innerHTML = `
     <section>
@@ -18,6 +19,8 @@ class MyTodo extends HTMLElement {
         // Do not use shadow DOM to avoid problems when testing with selenium
         // this._root = this.attachShadow({ 'mode': 'open' });
         // initial state
+        for (let i = 0; i < 1000; i++)
+            this._list.push({ text: 'This is my to item #' + i, checked: false });
     }
     connectedCallback() {
         this.appendChild(templateTodo.content.cloneNode(true));

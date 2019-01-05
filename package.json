@@ -24,8 +24,7 @@
   },
   "homepage": "http://",
   "dependencies": {
-    "@webcomponents/webcomponentsjs": "^2.2.1",
-    "es6-module-loader"
+    "@webcomponents/webcomponentsjs": "^2.2.1"
   },
   "devDependencies": {
     "typescript": "^3.2.2"
